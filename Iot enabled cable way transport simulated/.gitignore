@@ -1,0 +1,8 @@
+# Fusion / OS / editor noise
+*.f3z.bak
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.vscode/
+.idea/

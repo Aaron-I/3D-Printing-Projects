@@ -1,0 +1,80 @@
+{
+  "units": "mm",
+  "models": {
+    "cargo_pod": {
+      "body": [
+        600,
+        400,
+        350
+      ],
+      "wall": 3,
+      "corner_radius": 10,
+      "lug": [
+        40,
+        60,
+        12
+      ],
+      "lug_hole_diameter": 12,
+      "vents": "4 x 80 x 10 on each long side",
+      "drain_holes": "4 x D6",
+      "sensor_bay": [
+        120,
+        80,
+        40
+      ]
+    },
+    "carriage_hanger": {
+      "wheels": "2 x D80 x 30, groove R4.5",
+      "wheel_pitch": 100,
+      "side_plates": "2 x 200 x 120 x 8; 60 gap",
+      "axles": "2 x D12 x 100",
+      "straps": "2 x 150 x 40 x 6; holes 120 apart"
+    },
+    "support_tower": {
+      "height": 5000,
+      "base_leg_centres": 600,
+      "top_leg_centres": 300,
+      "legs": "4 x D48.3 x 3.2",
+      "braces": "D33.7 x 2.6, bays 1000",
+      "base_plate": [
+        800,
+        800,
+        12
+      ],
+      "base_holes": "4 x D20",
+      "top_platform": [
+        500,
+        400,
+        10
+      ],
+      "solar_panel": [
+        1650,
+        990,
+        35
+      ],
+      "panel_tilt_degrees": 15
+    }
+  },
+  "stl_files": [
+    "cargo_pod_assembly.stl",
+    "cargo_pod_body_600x400x350.stl",
+    "cargo_pod_lid_600x400x3.stl",
+    "cargo_pod_lug_40x60x12_D12_concept.stl",
+    "cargo_pod_sensor_bay_120x80x40.stl",
+    "carriage_axle_D12x100.stl",
+    "carriage_hanger_assembly.stl",
+    "carriage_hanger_strap_150x40x6.stl",
+    "carriage_pin_D12.stl",
+    "carriage_side_plate_200x120x8.stl",
+    "carriage_spacer_OD20x15.stl",
+    "carriage_wheel_D80x30_groove_R4p5.stl",
+    "support_tower_assembly_5000mm_concept.stl",
+    "tower_base_plate_800x800x12.stl",
+    "tower_brace_pipe_D33p7_wall2p6_length1000.stl",
+    "tower_leg_pipe_D48p3_wall3p2_length5000.stl",
+    "tower_panel_arm_40x40x3_length900.stl",
+    "tower_panel_rail_40x40x3_length1650.stl",
+    "tower_solar_panel_1650x990x35.stl",
+    "tower_top_platform_500x400x10.stl"
+  ]
+}

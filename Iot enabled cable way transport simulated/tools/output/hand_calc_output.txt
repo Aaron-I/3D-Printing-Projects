@@ -1,0 +1,31 @@
+== Hanger / carriage design load ==
+Total suspended mass        : 28.0 kg
+Static weight               : 275 N
+Design load (x2.0)        : 549 N
+
+== Rope tension (point load at mid-span) ==
+Horizontal component H      : 4292 N
+Tension at end tower        : 4.30 kN
+
+== Descent speed over a 12 m vertical drop ==
+Ideal v = sqrt(2gh)         : 15.3 m/s  (upper bound, no friction)
+With wheel inertia only     : 15.2 m/s  (friction/drag will lower it further)
+
+== Wind on solar panel ==
+Panel area                  : 1.633 m^2
+Wind force                  : 1.08 kN at 30 m/s
+
+== Axle bending (conservative: whole load on one axle) ==
+Bending stress              : 49 MPa
+
+== Tower leg (overturning, rope + wind aligned, legs only) ==
+Overturning moment at base  : 26.9 kN*m
+Leg axial force             : 22.4 kN
+Leg axial stress            : 49 MPa  (leg area 453 mm^2)
+Euler Pcr, one brace bay    : 229 kN (K=1, pinned ends; indicative only)
+Ratio Pcr / leg force       : 10.2
+
+== Pod floor, 394 mm strip, simply supported (thin-strip estimate) ==
+Pressure on floor           : 0.0023 MPa
+Bending stress              : 30 MPa
+Compare with yield: Al 6061-T6 ~275 MPa, ABS ~40 MPa (check your datasheet).
