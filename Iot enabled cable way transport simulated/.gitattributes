@@ -1,6 +1,0 @@
-# Large binary CAD/mesh files via Git LFS (run `git lfs install` first)
-*.stl  filter=lfs diff=lfs merge=lfs -text
-*.f3d  filter=lfs diff=lfs merge=lfs -text
-*.f3z  filter=lfs diff=lfs merge=lfs -text
-*.step filter=lfs diff=lfs merge=lfs -text
-*.stp  filter=lfs diff=lfs merge=lfs -text
